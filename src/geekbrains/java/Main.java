@@ -14,7 +14,7 @@ public class Main {
         employee a4 = new employee("Wilson", 34, 77_000);
         employee a5 = new employee("Alex", 25, 44_000);
         employee[] staff = {a1, a2, a3, a4, a5};
-        older(staff);
+        //older(staff);
 
         // Вывести при помощи методов из пункта 3 ФИО и возраст.
         System.out.println(a2.printAge() + " " + a2.printName());
@@ -23,12 +23,17 @@ public class Main {
 
     }
 
-    public static String older(employee[] staff) {
+    public static employee older(employee[] staff) {
         for (int i = 0; i < staff.length; i++) {
-            staff[i] = staff[0];
+            staff[i] =
+            if ( staff[i] > 40 )
+
         }
-        return printInfo;
+        return ???; ////завис , если бы мы просто спрашивали из мейна ( отзовителсь все кому
+        //больше сорока, это понятно. а как в массиве спросить и сравнить, непонятно.Наверняка
+        // как обычно все просто и логично((( время поджимает. сдаю так, пораньше.может комменты помогут доехать.
+        // спасибо что прочитали)))
     }
 
-}
+
 
