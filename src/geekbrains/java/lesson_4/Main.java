@@ -1,7 +1,6 @@
-package geekbrains.java;
-
+package geekbrains.java.lesson_4;
+import geekbrains.java.lesson_4.employee;
 public class Main {
-
 
     public static void main(String[] args) {
 
@@ -23,17 +22,19 @@ public class Main {
 
     }
 
-    public static employee older(employee[] staff) {
-        for (int i = 0; i < staff.length; i++) {
-            staff[i] =
-            if ( staff[i] > 40 )
+//    public static void older(employee[] staff) {
+//        for (int i = 0; i < staff.length; i++) {
+//            if (staff[i].printAge() > 40) {
+//                System.out.println(staff[i].getprintInfo);
+//            }
 
-        }
-        return ???; ////завис , если бы мы просто спрашивали из мейна ( отзовителсь все кому
-        //больше сорока, это понятно. а как в массиве спросить и сравнить, непонятно.Наверняка
-        // как обычно все просто и логично((( время поджимает. сдаю так, пораньше.может комменты помогут доехать.
-        // спасибо что прочитали)))
-    }
+
+    //return ???; ////завис , если бы мы просто спрашивали из мейна ( отзовителсь все кому
+    //больше сорока, это понятно. а как в массиве спросить и сравнить, непонятно.Наверняка
+    // как обычно все просто и логично((( время поджимает. сдаю так, пораньше.может комменты помогут доехать.
+    // спасибо что прочитали)))
+}
+
 
 
 

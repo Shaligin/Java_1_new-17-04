@@ -1,19 +1,20 @@
-package geekbrains.java;
+package geekbrains.java.lesson_4;
 
 //   * Создать метод, повышающий зарплату всем сотрудникам старше 45 лет на 5000.
 
 //Создать класс "Сотрудник" с полями: ФИО, зарплата, возраст;
 public class employee {
+
     String name;
     int age;
     int bonus;
-
 
     //   Конструктор класса должен заполнять эти поля при создании объекта;
     employee(String name, int age, int bonus) {
         this.name = name;
         this.age = age;
         this.bonus = bonus;
+
         System.out.println("employee" + " " + name + " " + "age of" + " " + age + " " + "have a bonus" + " " + bonus + "rub"); //эту строку можно выровнять спомощью табуляции?? чобы не писать все время кавычки.
     }
 
@@ -30,9 +31,9 @@ public class employee {
         return name;
     }
 
-    public void printInfo() {
-        if (age > 40)
-            System.out.println(name + age + bonus);
+     String getprintInfo() {
+           return
+                   this.name + this.age + this.bonus;
     }
 
     //  Создать массив из 5 сотрудников.
