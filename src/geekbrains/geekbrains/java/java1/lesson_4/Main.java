@@ -1,5 +1,6 @@
-package geekbrains.java.lesson_4;
-import geekbrains.java.lesson_4.employee;
+package geekbrains.java.java1.lesson_4;
+
+
 public class Main {
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package geekbrains.java.lesson_5.Zoo;
+package geekbrains.java.java1.lesson_5.Zoo;
 
-import geekbrains.java.lesson_5.Animal;
+import geekbrains.java.java1.lesson_5.Animal;
 
 
 public class Swimmers extends Animal {

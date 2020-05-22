@@ -1,4 +1,4 @@
-package geekbrains.java.Lesson_6;
+package geekbrains.java.java1.Lesson_6;
 
 public abstract class file {
     protected int name;

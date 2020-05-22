@@ -1,11 +1,6 @@
-package geekbrains.java.Lesson_6;
-
-import com.sun.org.apache.bcel.internal.generic.FNEG;
+package geekbrains.java.java1.Lesson_6;
 
 import java.io.*;
-import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[]args) throws FileNotFoundException {

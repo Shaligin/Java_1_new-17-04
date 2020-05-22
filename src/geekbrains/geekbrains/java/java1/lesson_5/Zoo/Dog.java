@@ -1,6 +1,7 @@
-package geekbrains.java.lesson_5.Zoo;
+package geekbrains.java.java1.lesson_5.Zoo;
 
-public class Dog extends Swimmers {
+public class Dog extends
+        Swimmers {
     public Dog(int run, double jump, int swim) {
         super(run, jump, swim);
     }
@@ -25,5 +26,7 @@ public class Dog extends Swimmers {
     }
 
 }
+
+
 
 

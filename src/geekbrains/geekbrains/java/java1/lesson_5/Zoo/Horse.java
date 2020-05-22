@@ -1,4 +1,4 @@
-package geekbrains.java.lesson_5.Zoo;
+package geekbrains.java.java1.lesson_5.Zoo;
 
 public class Horse extends Swimmers {
 
