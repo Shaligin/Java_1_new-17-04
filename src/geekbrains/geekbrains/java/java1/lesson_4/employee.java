@@ -1,4 +1,4 @@
-package geekbrains.java.lesson_4;
+package geekbrains.java.java1.lesson_4;
 
 //   * Создать метод, повышающий зарплату всем сотрудникам старше 45 лет на 5000.
 
