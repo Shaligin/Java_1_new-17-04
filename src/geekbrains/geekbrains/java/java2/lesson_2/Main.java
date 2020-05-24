@@ -1,10 +1,5 @@
 package geekbrains.java.java2.lesson_2;
 
-import com.sun.javafx.collections.MappingChange;
-
-import javax.swing.*;
-import java.lang.reflect.Array;
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {
